@@ -4,13 +4,13 @@ using Il2Cpp;
 using compendium_discounts;
 using System.Text.RegularExpressions;
 
-[assembly: MelonInfo(typeof(CompendiumDiscounts), "Compendium Discounts (Generous)", "1.0.0", "Matthiew Purple but mostly Zephhyr let's be honest")]
+[assembly: MelonInfo(typeof(CompendiumDiscounts), "Compendium Discounts (Normal)", "1.0.0", "Matthiew Purple but mostly Zephhyr let's be honest")]
 [assembly: MelonGame("アトラス", "smt3hd")]
 
 namespace compendium_discounts;
 public class CompendiumDiscounts : MelonMod
 {
-    public const float limitDiscount = 75f; // What the discount scales towards the closer you get to 100% compendium completion
+    public const float limitDiscount = 50f; // What the discount scales towards the closer you get to 100% compendium completion
     public const float finalDiscount = 100f; // Discount once the compendium is completed
 
     public static short currentRecord;
