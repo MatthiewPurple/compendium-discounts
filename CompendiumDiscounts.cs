@@ -4,7 +4,7 @@ using Il2Cpp;
 using compendium_discounts;
 using System.Text.RegularExpressions;
 
-[assembly: MelonInfo(typeof(CompendiumDiscounts), "Compendium Discounts (Generous)", "1.0.0", "Matthiew Purple but mostly Zephhyr let's be honest")]
+[assembly: MelonInfo(typeof(CompendiumDiscounts), "Compendium Discounts (Very generous)", "1.0.0", "Matthiew Purple but mostly Zephhyr let's be honest")]
 [assembly: MelonGame("アトラス", "smt3hd")]
 
 namespace compendium_discounts;
